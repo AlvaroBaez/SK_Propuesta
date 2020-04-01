@@ -81,6 +81,11 @@
         justify-content: space-between;
         width: 130px;
       }
+	  .img-flag{
+		  width: 26px; 
+		  height: 18px; 
+		  margin: 5px;
+	  }
     </style>
 
     <nav
@@ -97,7 +102,7 @@
         <input
           class="form-control mr-sm-2 d-none d-sm-none d-md-block"
           type="search"
-          style="background-color: #6c6e71; border-color: #707070;"
+          style="background-color: #6c6e71; border-color: #707070; border-radius: 11px;"
         />
         <span
           class="icon fa fa-search d-none d-sm-none d-md-block"
@@ -105,8 +110,13 @@
         ></span>
       </form>
 
-	  <section style="border: 1px solid aquamarine;">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#logo">
+	  <section class="d-flex">
+		<div>
+		<div>Hola: Cecilia Muñoz Soriano</div>
+		<img class="img-flag float-right" src="img/iconfinder_Chile_92021.png" alt="..." />
+		<img class="img-flag float-right" src="img/iconfinder_Chile_92021.png" alt="..." />
+		</div>
+		<button class="navbar-toggler ml-10" type="button" data-toggle="collapse" data-target="#logo">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 	</section>
@@ -118,19 +128,19 @@
         style="background-color: #B4B3B8; padding: 12px 0px 12px 0px;"
       >
         <form
-          class="form-inline justify-content-center align-items-center col-sm-12"
+          class="d-flex justify-content-center align-items-center col-sm-12"
         >
-        <div class="row">
+        
           <input
             class="form-control  col-xs-9"
             type="search"
-            style="background-color: #c7c6ca; border-color: #a2a1a5;"
+            style="background-color: #c7c6ca; border-color: #a2a1a5; border-radius: 11px;"
           />
           <span
             class="icon fa fa-search  col-xs-3"
-            style="font-size: 2rem; color: white; padding: 0px;"
+            style="font-size: 2rem; color: white; padding-left: 10px;"
           ></span>
-    </div>
+    
         </form>
       </div>
     </div>
@@ -290,15 +300,7 @@
     </div>
 
     <div class="container-fluid">
-      <style type="text/css">
-        .borde1 {
-          background-color: purple;
-        }
-        .borde2 {
-          background-color: blue;
-        }
-      </style>
-
+	  
       <div
         class="row d-none d-sm-none d-md-block"
         style="background-color: #707070; margin-top: 3px;"
@@ -310,30 +312,30 @@
       </div>
 
       <div
-        class="row d-md-none d-block d-sm-block"
-        style="background-color: #707070; margin-top: 3px; padding: 0px 12px;"
+        class="row d-flex justify-content-between align-items-center"
+        style="background-color: #707070; margin-top: 3px; padding: 10px 12px;"
       >
         <p class="text-white mb-0 d-flex">
           BUSCAR PERSONA
         </p>
-        <form class="form-inline">
+        <form class="d-flex">
           <input
             class="form-control mr-sm-2"
             type="search"
-            style="background-color: #cccecf; border-color: #747576;"
+            style="background-color: #cccecf; border-color: #747576; border-radius: 11px;"
           />
           <span
             class="icon fa fa-search"
-            style="font-size: 2rem; color: white;"
+            style="font-size: 2rem; color: white; padding-left: 10px;"
           ></span>
         </form>
       </div>
 
-      <div class="row">
+	  <div class="row">
         <div class="col-md-9">
           <h3>NOTICIAS</h3>
           <div class="row">
-            <div class="col">
+            <div class="col-lg-4 col-xs-12">
               <div class="card shadow bg-white rounded">
                 <img
                   src="https://dummyimage.com/600x400/000/fff.jpg"
@@ -352,13 +354,14 @@
                       >Categoría Noticia</span
                     >
 				  </h5>
-				<img src="img/iconfinder_Chile_92021.png" alt="..." />
+				  <div class="d-flex">
+				<img class="img-flag" src="img/iconfinder_Chile_92021.png" alt="..."/>
                   <p class="card-text">
                     This is a longer card with supporting text below as a
                     natural lead-in to additional content. This content is a
                     little bit longer.
 				  </p>
-
+				</div>
                   <p class="card-text">
                     <div class="float-right" style="color:#D52B1E;"
                       ><span class="icon fa fa-commenting"></span> 45
@@ -369,22 +372,23 @@
               </div>
             </div>
 
-			<div class="col">
+			<div class="col-lg-4 col-xs-12">
 				<div class="card shadow bg-white rounded">
-					<img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top " alt="..."
+					<img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block" alt="..."
 						style="border-radius: 5px 5px 0px 0px;" />
 					<div class="card-body">
 						<h5 class="card-title" style="border-bottom: 0px; padding: 0px 0px 10px 0px;">
 							<span class="badge text-white font-weight-bold" style="background-color: #FDB331;">Categoría
 								Noticia</span>
 						</h5>
-						<img src="img/iconfinder_Chile_92021.png" alt="..." />
+						<div class="d-flex">
+						<img class="img-flag" src="img/iconfinder_Chile_92021.png" alt="..." />
 						<p class="card-text">
 							This is a longer card with supporting text below as a
 							natural lead-in to additional content. This content is a
 							little bit longer.
 						</p>
-			
+						</div>
 						<p class="card-text">
 							<div class="float-right" style="color:#D52B1E;"><span class="icon fa fa-commenting"></span> 45
 								<span class="icon fa fa-heart-o"></span> 32</div>
@@ -392,22 +396,23 @@
 					</div>
 				</div>
 			</div>
-			<div class="col">
+			<div class="col-lg-4 col-xs-12">
 				<div class="card shadow bg-white rounded">
-					<img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top " alt="..."
+					<img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block" alt="..."
 						style="border-radius: 5px 5px 0px 0px;" />
 					<div class="card-body">
 						<h5 class="card-title" style="border-bottom: 0px; padding: 0px 0px 10px 0px;">
 							<span class="badge text-white font-weight-bold" style="background-color: #FDB331;">Categoría
 								Noticia</span>
 						</h5>
-						<img src="img/iconfinder_Chile_92021.png" alt="..." />
+						<div class="d-flex">
+						<img class="img-flag" src="img/iconfinder_Chile_92021.png" alt="..." />
 						<p class="card-text">
 							This is a longer card with supporting text below as a
 							natural lead-in to additional content. This content is a
 							little bit longer.
 						</p>
-			
+						</div>
 						<p class="card-text">
 							<div class="float-right" style="color:#D52B1E;"><span class="icon fa fa-commenting"></span> 45
 								<span class="icon fa fa-heart-o"></span> 32</div>
@@ -455,11 +460,17 @@
 			</div>
 		</div>
         </div>
-        <div class="col-md-3  borde2">
-          <p>DOS</p>
-          <div class="borde1">
-            <p>fjksdfj</p>
-          </div>
+        <div class="col-md-3">
+			<div class="row" style="border: 1px solid red">
+				section button
+			</div>
+			<div class="row" style="border: 1px solid blue">
+			section logos
+		</div>
+			<div class="row" style="border: 1px solid green">
+			section cumpleaños
+		</div>
+
         </div>
       </div>
 	</div>
