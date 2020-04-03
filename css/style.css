@@ -1,0 +1,243 @@
+.buttom-carousel {
+  padding: 10px 5px;
+}
+
+.carousel-control {
+  width: 30px;
+}
+
+.carousel-control > span {
+  color: #b4b3b8;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 130px;
+}
+
+.img-flag {
+  width: 26px;
+  height: 18px;
+  margin: 5px;
+}
+
+@media (max-width: 575.98px) {
+  .img-proyects {
+    height: 212px;
+  }
+}
+
+input::placeholder {
+  padding-left: 15px;
+}
+
+.body-white {
+  background-color: white;
+}
+
+.search-navbar {
+  background-color: #6c6e71;
+  border-color: #707070;
+  border-radius: 11px;
+}
+
+.icon-search-navbar {
+  font-size: 2rem;
+}
+
+.navbar-gray {
+  background-color: #b4b3b8;
+}
+
+.navbar-gray-form {
+  background-color: #b4b3b8;
+  padding: 12px 0px;
+}
+
+.navbar-gray-input {
+  background-color: #c7c6ca;
+  border-color: #a2a1a5;
+  border-radius: 11px;
+}
+
+.navbar-gray-span {
+  font-size: 2rem;
+  color: white;
+  padding-left: 10px;
+}
+
+.carousel-mobile {
+  margin: 5px 0px;
+}
+
+.carousel-mobile.carousel-inner {
+  margin: 5px 40px;
+}
+
+.carousel-control-class {
+  width: 5%;
+}
+
+.carousel-control-span {
+  color: #707070;
+}
+
+.w-45 {
+  width: 454px;
+}
+
+.border-felicitaciones {
+  border: 1px solid #707070;
+}
+
+.indicadores-class {
+  background-color: #707070;
+  margin-bottom: 20px;
+}
+
+.indicadores-div {
+  background-color: #707070;
+  margin-top: 3px;
+}
+
+.indicadores-p {
+  padding: 0px 12px;
+}
+
+.buscar-persona-div {
+  background-color: #707070;
+  margin-top: 3px;
+  padding: 10px 20px;
+}
+
+.buscar-persona-p {
+  margin-right: 10px;
+}
+
+.buscar-persona-search-icon-class {
+  background-color: #cccecf;
+  border-color: #747576;
+  border-radius: 11px;
+}
+
+.buscar-persona-search-icon-span {
+  font-size: 2rem;
+  color: white;
+  padding-left: 10px;
+}
+
+.card-title-one {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.card-title-border {
+  border-bottom: 0px;
+  padding: 0px 0px 10px 0px;
+}
+
+.card-title-background {
+  background-color: #fdb331;
+}
+
+.icon-red {
+  color: #d52b1e;
+}
+
+.carousel-mesadeservicio {
+  background-color: #f0f0f1;
+}
+
+.carousel-mesadeservicio-inner {
+  padding: 10px 0px;
+  margin-bottom: 20px;
+}
+
+.carousel-mesadeservicio-p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.background-sidebar {
+  background-color: #f7f7f7;
+  border-radius: 11px;
+  margin: 0px 10px 40px 0px;
+}
+
+.sidebar-span {
+  font-size: 18px;
+}
+
+.background-multimedia {
+  background-color: #f7f7f7;
+  border-radius: 11px;
+  margin-bottom: 40px;
+}
+
+.button-gray-1 {
+  background-color: #383b3f;
+  margin-bottom: 10px;
+}
+
+.button-gray-2 {
+  background-color: #4b4e51;
+  margin-bottom: 10px;
+}
+
+.button-gray-3 {
+  background-color: #5f6265;
+  margin-bottom: 10px;
+}
+
+.button-gray-4 {
+  background-color: #737578;
+  margin-bottom: 10px;
+}
+
+.button-gray-5 {
+  background-color: #87898b;
+  margin-bottom: 10px;
+}
+
+.button-gray-6 {
+  background-color: #afb0b2;
+  margin-bottom: 10px;
+}
+
+.logos-cuadro-1 {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-right: 2px;
+}
+
+.logos-cuadro-2 {
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 2px;
+  float: right;
+}
+
+.birthday-background {
+  background-color: #f7f7f7;
+}
+
+.input-gray {
+  width: 204px;
+  background-color: #b4b3b8;
+  border-radius: 9px;
+  border: 0px;
+}
+
+.brithday-hi {
+  background-color: #f7f7f7;
+  border-radius: 11px;
+  margin-top: 20px;
+}
+
+.footer-background {
+  background-color: #d52b1e;
+  height: 84px;
+}
