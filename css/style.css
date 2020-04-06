@@ -262,3 +262,8 @@ input::placeholder {
 .line-border-sidebar-history {
   border-right: 1px solid #cbcbcb;
 }
+
+.card-border {
+  border-radius: 1px solid #c5c5c5;
+  border: 1px solid #c5c5c5;
+}
