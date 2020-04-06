@@ -246,7 +246,9 @@ input::placeholder {
   border-bottom: 1px solid #b4b3b8;
 }
 
-.active {
+.active.active,
+li.active span,
+li.active i {
   font-weight: bold;
   color: #d52b1e;
 }
@@ -266,4 +268,39 @@ input::placeholder {
 .card-border {
   border-radius: 1px solid #c5c5c5;
   border: 1px solid #c5c5c5;
+}
+
+.card-border-radius {
+  border-radius: 1px;
+}
+
+.image-text-inside {
+  z-index: 300;
+  position: absolute;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+.image-filial {
+  margin: 0px -20px;
+}
+
+.btn-link-accordion.btn-link-accordion {
+  color: #d52b1e;
+  font-weight: 300 bold;
+}
+
+.btn-link-accordion.collapsed {
+  color: #383b3f;
+  font-weight: 300 bold;
+}
+
+.w-150 {
+  width: 150px;
+}
+
+.a-sidebar {
+  color: #d52b1e;
 }

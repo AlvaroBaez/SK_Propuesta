@@ -38,10 +38,10 @@
       class="navbar navbar-expand-sm bg-dark navbar-dark d-flex justify-content-between"
     >
       <!-- LOGO -->
-      <a href="#" class="navbar-brand d-none d-sm-none d-md-block"
+      <a href="#" class="navbar-brand d-none d-sm-none d-md-block "
         ><img src="img/LOGO_ICSK_BLANCO-01.png" alt=""
       /></a>
-      <a href="#" class="navbar-brand d-md-none d-block d-sm-block"
+      <a href="#" class="navbar-brand d-md-none d-block d-sm-block m-0"
         ><img src="img/LOGO_ICSK_BLANCO-01-mobile.png" alt=""
       /></a>
 
@@ -72,7 +72,7 @@
           />
         </div>
         <button
-          class="navbar-toggler ml-10"
+          class="navbar-toggler ml-3"
           type="button"
           data-toggle="collapse"
           data-target="#logo"
@@ -139,19 +139,20 @@
         <!-- SideBar -->
         <div class="col-2 collapse show d-md-flex bg-light pt-2 p-15 min-vh-100" id="sidebar">
             <ul class="nav flex-column flex-nowrap overflow-hidden">
-                <li class="nav-item active"><a class="nav-link text-truncate line-border-sidebar" href="#"> 
-                    <i class="fa fa-fw fa-dashboard"></i><span class="d-none d-sm-inline">Historia</span></a></li>
+                <li class="nav-item active"><a class="nav-link text-truncate line-border-sidebar" href="#">
+                        <i class="fa fa-fw fa-dashboard"></i><span class="d-none d-sm-inline">Historia</span></a></li>
+                <li class="nav-item "><a class="nav-link text-truncate line-border-sidebar" href="#">
+                        <i class="fa fa-area-chart"></i><span class="d-none d-sm-inline">Misión, Visión y Valores</span></a>
+                </li>
+                <li class="nav-item "><a class="nav-link text-truncate line-border-sidebar" href="#">
+                        <i class="fa fa-check-circle"></i><span class="d-none d-sm-inline">Filiales</span></a></li>
                 <li class="nav-item"><a class="nav-link text-truncate line-border-sidebar" href="#">
-                    <i class="fa fa-fw fa-dashboard"></i><span class="d-none d-sm-inline">Misión, Visión y Valores</span></a></li>
-                <li class="nav-item"><a class="nav-link text-truncate line-border-sidebar" href="#">
-                    <i class="fa fa-fw fa-dashboard"></i><span class="d-none d-sm-inline">Filiales</span></a></li>
-                <li class="nav-item"><a class="nav-link text-truncate line-border-sidebar" href="#">
-                    <i class="fa fa-fw fa-dashboard"></i><span class="d-none d-sm-inline">Gobierno Corporativo</span></a></li>
+                        <i class="fa fa-check-square"></i><span class="d-none d-sm-inline">Gobierno Corporativo</span></a></li>
             </ul>
         </div>
         <!-- BreadCrumb -->
         <div class="col pt-2">
-            <a href="" data-target="#sidebar" data-toggle="collapse" class="d-md-none"><i
+            <a href="" data-target="#sidebar" data-toggle="collapse" class="d-md-none a-sidebar"><i
                         class="fa fa-bars"></i>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -160,9 +161,169 @@
                     <li class="breadcrumb-item active" aria-current="page">Historia</li>
                 </ol>
             </nav>
-            <!-- Interior Historia -->
-            <div class="p-20 rounded shadow mb-20">
-                <h1>HISTORIA</h1>
+            <!-- Interior Historia Mobile -->
+            <div class="p-20 rounded shadow mb-20 d-block d-sm-block d-md-none">
+                <h1 class="active">HISTORIA</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate nibh malesuada interdum elementum.
+                    Praesent sit
+                    amet neque velit. Duis metus lacus, egestas ut congue nec, suscipit at neque. Morbi massa elit, congue venenatis
+                    auctor
+                    quis, mattis eu elit. Suspendisse accumsan ipsum justo, in fermentum ligula rutrum ac. Sed vel condimentum
+                    felis. Mauris
+                    sit amet ultrices turpis. Sed et nibh condimentum sapien tristique blandit. Nam molestie mi et eros maximus, id
+                    sodales
+                    risus ultrices. Duis ullamcorper libero vitae erat venenatis, vel volutpat quam cursus.</p>
+                <div class="row p-15">
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link btn-link-accordion w-150" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        1952 - 1956
+                                    </button>
+                                </h5>
+                            </div>
+                    
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed btn-link-accordion w-150" data-toggle="collapse" data-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        1980 - 1988
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="col-lg-4 col-xs-12">
+                                        <div class="card shadow bg-white rounded">
+                                            <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top"
+                                                alt="..." />
+                                            <div class="card-body">
+                                                <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">1980:</span></h2>
+                                                <p class="card-text">
+                                                    This is a longer card with supporting text below as a
+                                                    natural lead-in to additional content. This content is a
+                                                    little bit longer.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xs-12">
+                                        <div class="card shadow bg-white rounded">
+                                            <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top" alt="..." />
+                                            <div class="card-body">
+                                                <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">1980:</span></h2>
+                                                <p class="card-text">
+                                                    This is a longer card with supporting text below as a
+                                                    natural lead-in to additional content. This content is a
+                                                    little bit longer.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xs-12">
+                                        <div class="card shadow bg-white rounded">
+                                            <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top" alt="..." />
+                                            <div class="card-body">
+                                                <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">1980:</span></h2>
+                                                <p class="card-text">
+                                                    This is a longer card with supporting text below as a
+                                                    natural lead-in to additional content. This content is a
+                                                    little bit longer.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed btn-link-accordion w-150" data-toggle="collapse" data-target="#collapseThree"
+                                        aria-expanded="false" aria-controls="collapseThree">
+                                        1993 -1999
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed btn-link-accordion w-150" data-toggle="collapse" data-target="#collapseFour"
+                                        aria-expanded="false" aria-controls="collapseFour">
+                                        2000 - 2008
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed btn-link-accordion w-150" data-toggle="collapse" data-target="#collapseFive"
+                                        aria-expanded="false" aria-controls="collapseFive">
+                                        2010 - 2018
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="col-lg-4 col-xs-12">
+                                <div class="card shadow bg-white rounded">
+                                    <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
+                                        alt="..." />
+                                    <div class="card-body">
+                                        <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">1980:</span></h2>
+                                        <p class="card-text">
+                                            This is a longer card with supporting text below as a
+                                            natural lead-in to additional content. This content is a
+                                            little bit longer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Interior Historia Desktop -->
+            <div class="p-20 rounded shadow mb-20 d-none d-sm-none d-md-block">
+                <h1 class="active">HISTORIA</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate nibh malesuada interdum elementum. Praesent sit
                 amet neque velit. Duis metus lacus, egestas ut congue nec, suscipit at neque. Morbi massa elit, congue venenatis auctor
                 quis, mattis eu elit. Suspendisse accumsan ipsum justo, in fermentum ligula rutrum ac. Sed vel condimentum felis. Mauris
@@ -243,7 +404,7 @@
             </div>
         </div>
     </div>
-
+</div>
 
     <!-- Footer -->
     <footer class="footer footer-background">
