@@ -253,6 +253,11 @@ li.active i {
   color: #d52b1e;
 }
 
+.active.tab-pane {
+  font-weight: normal;
+  color: #4d5259;
+}
+
 .number-card-title {
   color: #d52b1e;
 }
@@ -303,4 +308,27 @@ li.active i {
 
 .a-sidebar {
   color: #d52b1e;
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link.active:focus,
+.nav-tabs .nav-link.active:hover {
+  position: relative;
+  border: none;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+  border-bottom: 2px solid transparent;
+  padding: 10px 16px;
+  border-radius: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #b4b3b8;
+  box-shadow: #383b3f;
+}
+
+.nav-tabs .nav-link {
+  color: #4d5259;
+  border-color: white;
 }
