@@ -25,30 +25,46 @@
 </head>
 
 <body class="body-white">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark d-flex justify-content-between">
-        <!-- LOGO -->
-        <a href="#" class="navbar-brand d-none d-sm-none d-md-block "><img src="img/LOGO_ICSK_BLANCO-01.png"
-                alt="" /></a>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark d-xl-flex d-lg-flex d-md-flex justify-content-between">
+        <a href="#" class="navbar-brand d-none d-sm-none d-md-block "><img src="img/LOGO_ICSK_BLANCO-01.png" alt="" /></a>
         <a href="#" class="navbar-brand d-md-none d-block d-sm-block m-0"><img src="img/LOGO_ICSK_BLANCO-01-mobile.png"
                 alt="" /></a>
-
-        <!-- SEARCH NAVBAR -->
+    
         <form class="form-inline">
             <input class="form-control mr-sm-2 d-none d-sm-none d-md-block search-navbar" type="search" />
             <span class="icon fa fa-search d-none d-sm-none d-md-block icon-search-navbar"></span>
         </form>
-
-        <!-- BANDERA Y NOMBRE -->
-        <section class="d-flex">
-            <div>
-                <div>Hola: Cecilia Muñoz Soriano</div>
-                <img class="img-flag float-right" src="img/iconfinder_Chile_92021.png" alt="..." />
-                <img class="img-flag float-right" src="img/iconfinder_Chile_92021.png" alt="..." />
-            </div>
-            <button class="navbar-toggler ml-3" type="button" data-toggle="collapse" data-target="#logo">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </section>
+    
+        <div>
+            <div>Hola: Cecilia Muñoz Soriano</div>
+            <img class="img-flag float-right" src="img/iconfinder_Chile_92021.png" alt="..." />
+            <img class="img-flag float-right" src="img/iconfinder_Chile_92021.png" alt="..." />
+        </div>
+    
+        <button class="collapsed d-sm-none" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-sm-none navbar-collapse collapse navbar-display" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto d-sm-none">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">INFÓRMATE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PERSONAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NUESTRAS ÁREAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">DOCUMENTOS</a>
+                </li>
+            </ul>
+        </div>
+    
     </nav>
 
     <div class="container-fluid d-md-none d-block d-sm-block d-md-none">

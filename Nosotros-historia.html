@@ -34,52 +34,46 @@
   </head>
 
   <body class="body-white">
-    <nav
-      class="navbar navbar-expand-sm bg-dark navbar-dark d-flex justify-content-between"
-    >
-      <!-- LOGO -->
-      <a href="#" class="navbar-brand d-none d-sm-none d-md-block "
-        ><img src="img/LOGO_ICSK_BLANCO-01.png" alt=""
-      /></a>
-      <a href="#" class="navbar-brand d-md-none d-block d-sm-block m-0"
-        ><img src="img/LOGO_ICSK_BLANCO-01-mobile.png" alt=""
-      /></a>
-
-      <!-- SEARCH NAVBAR -->
-      <form class="form-inline">
-        <input
-          class="form-control mr-sm-2 d-none d-sm-none d-md-block search-navbar"
-          type="search"
-        />
-        <span
-          class="icon fa fa-search d-none d-sm-none d-md-block icon-search-navbar"
-        ></span>
-      </form>
-
-      <!-- BANDERA Y NOMBRE -->
-      <section class="d-flex">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark d-xl-flex d-lg-flex d-md-flex justify-content-between">
+        <a href="#" class="navbar-brand d-none d-sm-none d-md-block "><img src="img/LOGO_ICSK_BLANCO-01.png" alt="" /></a>
+        <a href="#" class="navbar-brand d-md-none d-block d-sm-block m-0"><img src="img/LOGO_ICSK_BLANCO-01-mobile.png"
+                alt="" /></a>
+    
+        <form class="form-inline">
+            <input class="form-control mr-sm-2 d-none d-sm-none d-md-block search-navbar" type="search" />
+            <span class="icon fa fa-search d-none d-sm-none d-md-block icon-search-navbar"></span>
+        </form>
+    
         <div>
-          <div>Hola: Cecilia Muñoz Soriano</div>
-          <img
-            class="img-flag float-right"
-            src="img/iconfinder_Chile_92021.png"
-            alt="..."
-          />
-          <img
-            class="img-flag float-right"
-            src="img/iconfinder_Chile_92021.png"
-            alt="..."
-          />
+            <div>Hola: Cecilia Muñoz Soriano</div>
+            <img class="img-flag float-right" src="img/iconfinder_Chile_92021.png" alt="..." />
+            <img class="img-flag float-right" src="img/iconfinder_Chile_92021.png" alt="..." />
         </div>
-        <button
-          class="navbar-toggler ml-3"
-          type="button"
-          data-toggle="collapse"
-          data-target="#logo"
-        >
-          <span class="navbar-toggler-icon"></span>
+    
+        <button class="collapsed d-sm-none" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-      </section>
+        <div class="d-sm-none navbar-collapse collapse navbar-display" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto d-sm-none">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">INFÓRMATE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PERSONAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NUESTRAS ÁREAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">DOCUMENTOS</a>
+                </li>
+            </ul>
+        </div>
+    
     </nav>
 
     <div class="container-fluid d-md-none d-block d-sm-block d-md-none">
@@ -162,7 +156,7 @@
                 </ol>
             </nav>
             <!-- Interior Historia Mobile -->
-            <div class="p-20 rounded shadow mb-20 d-block d-sm-block d-md-none">
+            <div class="p-20 rounded shadow mb-20 d-lg-none">
                 <h1 class="active">HISTORIA</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate nibh malesuada interdum elementum.
                     Praesent sit
@@ -322,7 +316,7 @@
                 </div>
             </div>
             <!-- Interior Historia Desktop -->
-            <div class="p-20 rounded shadow mb-20 d-none d-sm-none d-md-block">
+            <div class="p-20 rounded shadow mb-20 d-none d-lg-block">
                 <h1 class="active">HISTORIA</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate nibh malesuada interdum elementum. Praesent sit
                 amet neque velit. Duis metus lacus, egestas ut congue nec, suscipit at neque. Morbi massa elit, congue venenatis auctor
@@ -332,74 +326,272 @@
                 <div class="row p-15">
                     <div class="col-2 pl-15 pr-0 line-border-sidebar-history">
                         <!-- SideBar fechas -->
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">1952 - 1956</a>
+                        <ul class="nav nav-tabs nav-tabs-historia">
+                            <li class="nav-item ">
+                                <a class="nav-link active" data-toggle="tab" href="#home">1952 - 1956</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active line-border-sidebar-history-active" href="#">1980-1988</a>
+                            <li class="nav-item ">
+                                <a class="nav-link" data-toggle="tab" href="#menu1">1980-1988</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">1993 -1999</a>
+                            <li class="nav-item ">
+                                <a class="nav-link" data-toggle="tab" href="#menu2">1993 -1999</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">2000 - 2008</a>
+                            <li class="nav-item ">
+                                <a class="nav-link" data-toggle="tab" href="#menu3">2000 - 2008</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">2010 - 2018</a>
+                            <li class="nav-item ">
+                                <a class="nav-link" data-toggle="tab" href="#menu4">2010 - 2018</a>
                             </li>
                         </ul>
                     </div>
-                    <!-- Cards Fechas -->
+                    <!-- Tab panes -->
                     <div class="col-10">
-                        <div class="row">
-                            <div class="col-lg-4 col-xs-12">
-                                <div class="card shadow bg-white rounded">
-                                    <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
-                                        alt="..." />
-                                    <div class="card-body">
-                                        <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">1980:</span></h2>
-                                        <p class="card-text">
-                                            This is a longer card with supporting text below as a
-                                            natural lead-in to additional content. This content is a
-                                            little bit longer.
-                                        </p>
+                            <div class="tab-content">
+                                <div class="tab-pane active container" id="home">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-xs-12">
+                                            <div class="card shadow bg-white rounded">
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
+                                                    alt="..." />
+                                                <div class="card-body">
+                                                    <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">1952:</span></h2>
+                                                    <p class="card-text">
+                                                        This is a longer card with supporting text below as a
+                                                        natural lead-in to additional content. This content is a
+                                                        little bit longer.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-xs-12">
+                                            <div class="card shadow bg-white rounded">
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
+                                                    alt="..." />
+                                                <div class="card-body">
+                                                    <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">1953:</span></h2>
+                                                    <p class="card-text">
+                                                        This is a longer card with supporting text below as a
+                                                        natural lead-in to additional content. This content is a
+                                                        little bit longer.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-xs-12">
+                                            <div class="card shadow bg-white rounded">
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
+                                                    alt="..." />
+                                                <div class="card-body">
+                                                    <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">1954:</span></h2>
+                                                    <p class="card-text">
+                                                        This is a longer card with supporting text below as a
+                                                        natural lead-in to additional content. This content is a
+                                                        little bit longer.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane container" id="menu1">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-xs-12">
+                                            <div class="card shadow bg-white rounded">
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
+                                                    alt="..." />
+                                                <div class="card-body">
+                                                    <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">1980:</span>
+                                                    </h2>
+                                                    <p class="card-text">
+                                                        This is a longer card with supporting text below as a
+                                                        natural lead-in to additional content. This content is a
+                                                        little bit longer.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-xs-12">
+                                            <div class="card shadow bg-white rounded">
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
+                                                    alt="..." />
+                                                <div class="card-body">
+                                                    <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">1981:</span>
+                                                    </h2>
+                                                    <p class="card-text">
+                                                        This is a longer card with supporting text below as a
+                                                        natural lead-in to additional content. This content is a
+                                                        little bit longer.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-xs-12">
+                                            <div class="card shadow bg-white rounded">
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
+                                                    alt="..." />
+                                                <div class="card-body">
+                                                    <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">1982:</span>
+                                                    </h2>
+                                                    <p class="card-text">
+                                                        This is a longer card with supporting text below as a
+                                                        natural lead-in to additional content. This content is a
+                                                        little bit longer.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane container" id="menu2">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-xs-12">
+                                            <div class="card shadow bg-white rounded">
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
+                                                    alt="..." />
+                                                <div class="card-body">
+                                                    <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">1997:</span>
+                                                    </h2>
+                                                    <p class="card-text">
+                                                        This is a longer card with supporting text below as a
+                                                        natural lead-in to additional content. This content is a
+                                                        little bit longer.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-xs-12">
+                                            <div class="card shadow bg-white rounded">
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
+                                                    alt="..." />
+                                                <div class="card-body">
+                                                    <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">1998:</span>
+                                                    </h2>
+                                                    <p class="card-text">
+                                                        This is a longer card with supporting text below as a
+                                                        natural lead-in to additional content. This content is a
+                                                        little bit longer.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-xs-12">
+                                            <div class="card shadow bg-white rounded">
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
+                                                    alt="..." />
+                                                <div class="card-body">
+                                                    <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">1999:</span>
+                                                    </h2>
+                                                    <p class="card-text">
+                                                        This is a longer card with supporting text below as a
+                                                        natural lead-in to additional content. This content is a
+                                                        little bit longer.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane container" id="menu3">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-xs-12">
+                                            <div class="card shadow bg-white rounded">
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
+                                                    alt="..." />
+                                                <div class="card-body">
+                                                    <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">2006:</span>
+                                                    </h2>
+                                                    <p class="card-text">
+                                                        This is a longer card with supporting text below as a
+                                                        natural lead-in to additional content. This content is a
+                                                        little bit longer.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-xs-12">
+                                            <div class="card shadow bg-white rounded">
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
+                                                    alt="..." />
+                                                <div class="card-body">
+                                                    <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">2007:</span>
+                                                    </h2>
+                                                    <p class="card-text">
+                                                        This is a longer card with supporting text below as a
+                                                        natural lead-in to additional content. This content is a
+                                                        little bit longer.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-xs-12">
+                                            <div class="card shadow bg-white rounded">
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
+                                                    alt="..." />
+                                                <div class="card-body">
+                                                    <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">2008:</span>
+                                                    </h2>
+                                                    <p class="card-text">
+                                                        This is a longer card with supporting text below as a
+                                                        natural lead-in to additional content. This content is a
+                                                        little bit longer.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane container" id="menu4">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-xs-12">
+                                            <div class="card shadow bg-white rounded">
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
+                                                    alt="..." />
+                                                <div class="card-body">
+                                                    <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">2016:</span>
+                                                    </h2>
+                                                    <p class="card-text">
+                                                        This is a longer card with supporting text below as a
+                                                        natural lead-in to additional content. This content is a
+                                                        little bit longer.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-xs-12">
+                                            <div class="card shadow bg-white rounded">
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
+                                                    alt="..." />
+                                                <div class="card-body">
+                                                    <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">2017:</span>
+                                                    </h2>
+                                                    <p class="card-text">
+                                                        This is a longer card with supporting text below as a
+                                                        natural lead-in to additional content. This content is a
+                                                        little bit longer.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-xs-12">
+                                            <div class="card shadow bg-white rounded">
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
+                                                    alt="..." />
+                                                <div class="card-body">
+                                                    <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">2018:</span>
+                                                    </h2>
+                                                    <p class="card-text">
+                                                        This is a longer card with supporting text below as a
+                                                        natural lead-in to additional content. This content is a
+                                                        little bit longer.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        
-                            <div class="col-lg-4 col-xs-12">
-                                <div class="card shadow bg-white rounded">
-                                    <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
-                                        alt="..." />
-                                    <div class="card-body">
-                                        <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">1980:</span></h2>
-                                        <p class="card-text">
-                                            This is a longer card with supporting text below as a
-                                            natural lead-in to additional content. This content is a
-                                            little bit longer.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                            <div class="col-lg-4 col-xs-12">
-                                <div class="card shadow bg-white rounded">
-                                    <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top d-none d-lg-block card-title-one"
-                                        alt="..." />
-                                    <div class="card-body">
-                                        <h2 class="card-title p-0 bb-0 mb-10"> <span class="font-weight-bold number-card-title">1980:</span></h2>
-                                        <p class="card-text">
-                                            This is a longer card with supporting text below as a
-                                            natural lead-in to additional content. This content is a
-                                            little bit longer.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
                     </div>
+                    
                 </div>
             </div>
         </div>

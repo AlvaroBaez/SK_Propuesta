@@ -310,6 +310,10 @@ li.active i {
   color: #d52b1e;
 }
 
+.navbar-dark .navbar-toggler {
+  color: white;
+}
+
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-link.active:focus,
@@ -331,4 +335,49 @@ li.active i {
 .nav-tabs .nav-link {
   color: #4d5259;
   border-color: white;
+}
+
+.input-gray-noticias {
+  width: 120px;
+  background-color: #eff1f5;
+  border-radius: 9px;
+  border: 1px solid #fafafa;
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-collapse.navbar-display {
+    display: none !important;
+  }
+}
+
+.nav-tabs-historia.nav-tabs .nav-link:hover,
+.nav-tabs-historia.nav-tabs .nav-link.active,
+.nav-tabs-historia.nav-tabs .nav-link.active:focus,
+.nav-tabs-historia.nav-tabs .nav-link.active:hover {
+  position: relative;
+  border: none;
+  font-size: 13px;
+  text-align: center;
+  color: #d52b1e;
+  padding: 10px 16px;
+  border-radius: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: white;
+}
+
+.fondo-azul {
+  background-color: #383b3f;
+}
+
+.enviar-fondo {
+  background-color: #f5f4f5;
+}
+
+.enviar-borde {
+  border: 1px solid #caced5;
+}
+
+.h-450 {
+  height: 650px;
 }
