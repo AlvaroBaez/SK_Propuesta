@@ -110,14 +110,14 @@
             <!-- SideBar -->
             <div class="col-2 collapse show d-md-flex bg-light pt-2 p-15 min-vh-100" id="sidebar">
                 <ul class="nav flex-column flex-nowrap overflow-hidden">
-                    <li class="nav-item active"><a class="nav-link text-truncate line-border-sidebar" href="#">
+                    <li class="nav-item "><a class="nav-link text-truncate line-border-sidebar" href="#">
                             <i class="fa fa-fw fa-dashboard"></i><span class="d-none d-sm-inline">Noticias</span></a></li>
                     <li class="nav-item"><a class="nav-link text-truncate line-border-sidebar" href="#">
                             <i class="fa fa-area-chart"></i><span class="d-none d-sm-inline">Galerías de Fotos</span></a>
                     </li>
                     <li class="nav-item "><a class="nav-link text-truncate line-border-sidebar" href="#">
                             <i class="fa fa-check-circle"></i><span class="d-none d-sm-inline">Videos</span></a></li>
-                    <li class="nav-item"><a class="nav-link text-truncate line-border-sidebar" href="#">
+                    <li class="nav-item active"><a class="nav-link text-truncate line-border-sidebar" href="#">
                             <i class="fa fa-check-square"></i><span class="d-none d-sm-inline">Comunicados</span></a></li>
                 </ul>
             </div>
@@ -129,16 +129,16 @@
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#">Intranet</a></li>
                             <li class="breadcrumb-item"><a href="#">Infórmate</a></li>
-                            <li class="breadcrumb-item" aria-current="page">Noticias</li>
+                            <li class="breadcrumb-item" aria-current="page">Comunicados</li>
                         </ol>
                     </nav>
                     <!-- Interior Historia -->
                     <div class="p-20 mb-20">
                         <div class="row">
-                            <h1 class="active">Noticias</h1>
+                            <h1 class="active">Comunicados</h1>
                         </div>
                         <div class="row mb-20">
-                            <input class="input-gray-noticias-grande mr-10" placeholder="Buscar noticia"></input>
+                            <input class="input-gray-noticias-grande mr-10" placeholder="Buscar Comunicados"></input>
                             <input class="input-gray-noticias mr-10" placeholder="País"></input>
                             <input class="input-gray-noticias mr-10" placeholder="Categoria"></input>
                             <input class="input-gray-noticias mr-10" placeholder="Fecha desde"></input>
@@ -150,78 +150,91 @@
 
                             <div class="col-12">
 
-                                <div class="row">
-                                    <div class="col-lg-4 col-xs-12">
-                                        <div class="card shadow bg-white rounded">
-                                            <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top card-title-one"
-                                                alt="..." />
-                                            <div class="card-body">
-                                                <h5 class="card-title card-title-border">
-                                                    <span class="badge text-white font-weight-bold card-title-background">Categoría Noticia</span>
-                                                </h5>
-                                                <div class="d-flex">
-                                                    <img class="img-flag" src="img/iconfinder_Chile_92021.png" alt="..." />
-                                                    <p class="card-text font-weight-bold">
-                                                        This is a longer card with supporting text below.
-                                                    </p>
-                                                </div>
-                                                <div class="mt-20 d-flex justify-content-end justify-content-between align-items-center">
-                                                    <small class=" m-0 pr-20">04/06/2019</small>
-                                                    <div class="icon-red">
-                                                        <span class="icon fa fa-commenting"></span> 32
-                                                        <span class="icon fa fa-heart"></span> 32
-                                                    </div>
-                                                </div>
+                                <a href="" class="comunication-link" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="row">
+                                        <div class="col-lg-1 col-mb-2">
+                                            <img src="img/comunicado-1.png" alt="" />
+                                        </div>
+                                        <div class="col-lg-11 col-mb-10 co-sm-12">
+                                            <div class="row pl-15">
+                                            <small>15/08/2019</small>
+                                            </div>
+                                            <div class="row pl-15">
+                                                <img class="img-flag ml-0 mt-0" src="img/iconfinder_Chile_92021.png" alt="..." />
+                                                <p class="font-weight-bold">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation ullamco.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-xs-12">
-                                        <div class="card shadow bg-white rounded">
-                                            <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top card-title-one" alt="..." />
-                                            <div class="card-body">
-                                                <h5 class="card-title card-title-border">
-                                                    <span class="badge text-white font-weight-bold card-title-background">Categoría Noticia</span>
-                                                </h5>
-                                                <div class="d-flex">
-                                                    <img class="img-flag" src="img/iconfinder_Chile_92021.png" alt="..." />
-                                                    <p class="card-text font-weight-bold">
-                                                        This is a longer card with supporting text below.
-                                                    </p>
-                                                </div>
-                                                <div class="mt-20 d-flex justify-content-end justify-content-between align-items-center">
-                                                    <small class=" m-0 pr-20">04/06/2019</small>
-                                                    <div class="icon-red">
-                                                        <span class="icon fa fa-commenting"></span> 32
-                                                        <span class="icon fa fa-heart"></span> 32
-                                                    </div>
-                                                </div>
+                                </a>
+                                <!-- modal 1 -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title active" id="exampleModalLabel">Titulo del Comunicado</h5>
+                                                <button type="button" class="close x-cricle" data-dismiss="modal" aria-label="Close">
+                                                    <span class="x-position" aria-hidden="true">&times;</span>
+                                                </button>
                                             </div>
-                                        </div> 
-                                    </div>
-                                    <div class="col-lg-4 col-xs-12">
-                                        <div class="card shadow bg-white rounded">
-                                            <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top card-title-one" alt="..." />
-                                            <div class="card-body">
-                                                <h5 class="card-title card-title-border">
-                                                    <span class="badge text-white font-weight-bold card-title-background">Categoría Noticia</span>
-                                                </h5>
-                                                <div class="d-flex">
-                                                    <img class="img-flag" src="img/iconfinder_Chile_92021.png" alt="..." />
-                                                    <p class="card-text font-weight-bold">
-                                                        This is a longer card with supporting text below.
-                                                    </p>
-                                                </div>
-                                                <div class="mt-20 d-flex justify-content-end justify-content-between align-items-center">
-                                                    <small class=" m-0 pr-20">04/06/2019</small>
-                                                    <div class="icon-red">
-                                                        <span class="icon fa fa-commenting"></span> 32
-                                                        <span class="icon fa fa-heart"></span> 32
-                                                    </div>
-                                                </div>
+                                            <div class="modal-body">
+                                                Praesent lobortis hendrerit dolor, varius tempus nisi posuere congue. Praesent sollicitudin odio venenatis, facilisis
+                                                turpis nec, ultrices lacus. Cras fermentum maximus metus ac volutpat. Curabitur lacinia congue est, vitae viverra nibh
+                                                ultrices vel. Praesent sed elementum est, sit amet suscipit risus. Pellentesque in est justo. Nullam pharetra, lacus sit
+                                                amet tristique interdum, nisl turpis faucibus velit, id ullamcorper augue urna et sapien. Nulla facilisi.
+                                                
+                                                Suspendisse interdum odio at risus fringilla posuere. Sed pellentesque viverra neque. Quisque ornare suscipit tellus, at
+                                                fringilla purus cursus eu. Aliquam a sollicitudin ante. In hac habitasse platea dictumst. Sed molestie leo ac elit
+                                                imperdiet, vel aliquam dui bibendum. Vestibulum maximus felis porttitor aliquet luctus. Sed et lacus blandit,
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
+                                <hr class="mb-20 mt-20">
+
+                                <a href="" class="comunication-link" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="row">
+                                        <div class="col-lg-1 col-mb-2">
+                                            <img src="img/comunicado-1.png" alt="" />
+                                        </div>
+                                        <div class="col-lg-11 col-mb-10 co-sm-12">
+                                            <div class="row pl-15">
+                                                <small>15/08/2019</small>
+                                            </div>
+                                            <div class="row pl-15">
+                                                <img class="img-flag ml-0 mt-0" src="img/iconfinder_Chile_92021.png" alt="..." />
+                                                <p class="font-weight-bold">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                                    ad minim veniam, quis nostrud
+                                                    exercitation ullamco.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <hr class="mb-20 mt-20">
+
+                                <a href="" class="comunication-link" data-toggle="modal" data-target="#exampleModal">
+                                    <div class="row">
+                                        <div class="col-lg-1 col-mb-2">
+                                            <img src="img/comunicado-1.png" alt="" />
+                                        </div>
+                                        <div class="col-lg-11 col-mb-10 co-sm-12">
+                                            <div class="row pl-15">
+                                                <small>15/08/2019</small>
+                                            </div>
+                                            <div class="row pl-15">
+                                                <img class="img-flag ml-0 mt-0" src="img/iconfinder_Chile_92021.png" alt="..." />
+                                                <p class="font-weight-bold">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                                    ad minim veniam, quis nostrud
+                                                    exercitation ullamco.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                
+                                <hr class="mb-20 mt-20">
 
                             </div>
                             <nav aria-label="Page navigation example">
