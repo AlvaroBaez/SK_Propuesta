@@ -320,11 +320,7 @@ li.active i {
   border-bottom: none;
 }
 
-.nav-tabs-history-2.nav-tabs .nav-link {
-  color: red;
-  border-color: white;
-}
-
+/*
 .nav-tabs-history-2.nav-tabs .nav-link:hover,
 .nav-tabs-history-2.nav-tabs .nav-link.active,
 .nav-tabs-history-2.nav-tabs .nav-link.active:focus,
@@ -339,6 +335,22 @@ li.active i {
   transition: 0.5s;
   background-color: #b4b3b8;
   box-shadow: #383b3f;
+}
+*/
+.nav-tabs-gobierno.nav-tabs .nav-link:hover,
+.nav-tabs-gobierno.nav-tabs .nav-link.active,
+.nav-tabs-gobierno.nav-tabs .nav-link.active:focus,
+.nav-tabs-gobierno.nav-tabs .nav-link.active:hover {
+  color: white;
+  background-color: #b4b3b8;
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link.active:focus,
+.nav-tabs .nav-link.active:hover {
+  color: #d52b1e;
+  border-color: white;
 }
 
 .input-gray-noticias {
