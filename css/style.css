@@ -320,23 +320,6 @@ li.active i {
   border-bottom: none;
 }
 
-/*
-.nav-tabs-history-2.nav-tabs .nav-link:hover,
-.nav-tabs-history-2.nav-tabs .nav-link.active,
-.nav-tabs-history-2.nav-tabs .nav-link.active:focus,
-.nav-tabs-history-2.nav-tabs .nav-link.active:hover {
-  position: relative;
-  border: none;
-  font-size: 13px;
-  text-align: center;
-  padding: 10px 16px;
-  border-radius: 0;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  background-color: #b4b3b8;
-  box-shadow: #383b3f;
-}
-*/
 .nav-tabs-gobierno.nav-tabs .nav-link:hover,
 .nav-tabs-gobierno.nav-tabs .nav-link.active,
 .nav-tabs-gobierno.nav-tabs .nav-link.active:focus,
@@ -437,16 +420,19 @@ li.active i {
   }
 }
 
+.image-curva-father {
+  position: relative;
+}
+
 .image-curva {
   width: 100%;
   height: 20px;
   display: block;
   position: absolute;
-  top: 50%;
+  bottom: 0;
   background: url(../img/circle.svg) 0 0 no-repeat;
   background-size: cover;
   z-index: 9;
-  border: 1px solid red;
 }
 
 .comunication-link {
@@ -496,4 +482,77 @@ li.active i {
   height: 50px;
   width: 50px;
   margin-right: 20px;
+}
+
+.breadcrumb a:hover {
+  color: #8b95a5;
+  text-decoration: none;
+}
+
+.input-gray-beneficios {
+  width: 130px;
+  background-color: #383B3F;
+  border-radius: 9px;
+  border: 1px solid #EBEBEB;
+}
+
+.input-gray-beneficios-rojo {
+  width: 100px;
+  background-color: #D52B1E;
+  border-radius: 9px;
+  border: 1px solid #EBEBEB;
+}
+
+#place-white {
+  color: white;
+}
+
+#place-white::placeholder {
+  color: white;
+}
+
+.image-circle {
+  width: 200px;
+  height: 157px;
+  float: left;
+  margin-right: 10px;
+}
+
+.background-capacitacion {
+  background-color: #f8f8f8;
+  padding: 15px;
+}
+
+.image-circle-capacitacion {
+  width: 54px;
+  height: 54px;
+  margin-right: 10px;
+}
+
+.pagination-center {
+  display: flex;
+  justify-content: center;
+}
+
+/*calendario*/
+@media (max-width:575px) {
+  .display-4 {
+    font-size: 1.5rem;
+  }
+
+  .day h5 {
+    background-color: #f8f9fa;
+    padding: 3px 5px 5px;
+    margin: -8px -8px 8px -8px;
+  }
+
+  .date {
+    padding-left: 4px;
+  }
+}
+
+@media (min-width: 576px) {
+  .day {
+    height: 14.2857vw;
+  }
 }
