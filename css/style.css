@@ -535,6 +535,7 @@ li.active i {
 }
 
 /*calendario*/
+
 @media (max-width:575px) {
   .display-4 {
     font-size: 1.5rem;
@@ -555,4 +556,49 @@ li.active i {
   .day {
     height: 14.2857vw;
   }
+}
+
+/* fin calendario*/
+
+.button-recursos {
+  background-color: #D52B1E;
+  border-radius: 17px;
+}
+
+.cards-pdf {
+  background-color: white;
+}
+
+.btn-acordeon-recursos.btn.btn-link,
+.btn-acordeon-recursos.btn.btn-link:hover,
+.btn-acordeon-recursos.btn.btn-link.active,
+.btn-acordeon-recursos.btn.btn-link.active:focus,
+.btn-acordeon-recursos.btn.btn-link.active:hover {
+  background-color: #383B3F;
+  border-radius: 8px;
+  color: white;
+}
+
+.img-nuestras-areas {
+  width: 157px;
+  height: 157px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary.active,
+.btn-primary.active:focus,
+.btn-primary.active:hover {
+  background-color: #D52B1E;
+  border-color: #D52B1E;
+}
+
+.btn-acordeon-recursos-2.btn.btn-link,
+.btn-acordeon-recursos-2.btn.btn-link:hover,
+.btn-acordeon-recursos-2.btn.btn-link.active,
+.btn-acordeon-recursos-2.btn.btn-link.active:focus,
+.btn-acordeon-recursos-2.btn.btn-link.active:hover {
+  background-color: #B4B3B8;
+  border-radius: 8px;
+  color: #383B3F;
 }
