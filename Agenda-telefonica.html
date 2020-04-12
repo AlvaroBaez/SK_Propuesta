@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,300i"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link href="./assets/css/core.min.css" rel="stylesheet" />
+    <link href="./assets/css/app.min.css" rel="stylesheet" />
+    <link href="./assets/css/style.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="./assets/img/apple-touch-icon.png" />
+    <link rel="icon" href="./assets/img/favicon.png" />
+  </head>
+
+  <body class="body-white">
+    <nav
+      class="navbar navbar-expand-md navbar-dark bg-dark d-xl-flex d-lg-flex d-md-flex justify-content-between"
+    >
+      <a href="index.html" class="navbar-brand d-none d-sm-none d-md-block"
+        ><img src="img/LOGO_ICSK_BLANCO-01.png" alt=""
+      /></a>
+      <a href="index.html" class="navbar-brand d-md-none d-block d-sm-block m-0"
+        ><img src="img/LOGO_ICSK_BLANCO-01-mobile.png" alt=""
+      /></a>
+
+      <form class="form-inline">
+        <input
+          class="form-control mr-sm-2 d-none d-sm-none d-md-block search-navbar"
+          type="search"
+        />
+        <span
+          class="icon fa fa-search d-none d-sm-none d-md-block icon-search-navbar"
+        ></span>
+      </form>
+
+      <div>
+        <div>Hola: Cecilia Muñoz Soriano</div>
+        <img
+          class="img-flag float-right"
+          src="img/iconfinder_Chile_92021.png"
+          alt="..."
+        />
+        <img
+          class="img-flag float-right"
+          src="img/iconfinder_Chile_92021.png"
+          alt="..."
+        />
+      </div>
+
+      <button
+        class="collapsed d-sm-none"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="d-sm-none navbar-collapse collapse navbar-display"
+        id="navbarCollapse"
+      >
+        <ul class="navbar-nav mr-auto d-sm-none">
+          <li class="nav-item">
+            <a class="nav-link" href="Nosotros-historia.html">NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Noticias.html">INFÓRMATE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Beneficios.html">PERSONAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Nuestras-areas.html">NUESTRAS ÁREAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Documentos.html">DOCUMENTOS</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid d-md-none d-block d-sm-block d-md-none">
+      <div class="row navbar-gray-form">
+        <form
+          class="d-flex justify-content-center align-items-center col-sm-12"
+        >
+          <input
+            class="form-control col-xs-9 navbar-gray-input"
+            type="search"
+          />
+          <span class="icon fa fa-search col-xs-3 navbar-gray-span"></span>
+        </form>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row navbar-gray d-none d-sm-block d-md-flex">
+        <ul class="nav col-md-9 col-lg-9">
+          <li class="nav-item">
+            <a
+              class="nav-link font-weight-bold text-white"
+              href="Nosotros-historia.html"
+              >NOSOTROS</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold text-white" href="Noticias.html"
+              >INFÓRMATE</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold text-white" href="Noticias.html"
+              >PERSONAS</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link font-weight-bold text-white"
+              href="Beneficios.html"
+              >NUESTRAS ÁREAS</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link font-weight-bold text-white"
+              href="Documentos.html"
+              >DOCUMENTOS</a
+            >
+          </li>
+        </ul>
+
+        <div class="col-md-3 col-lg-3 d-flex float-right flex-row-reverse">
+          <section class="social-media text-white">
+            <p class="font-weight-bold mb-0">Siguenos</p>
+            <a><span class="icon fa fa-twitter"></span></a>
+            <a><span class="icon fa fa-twitter"></span></a>
+            <a><span class="icon fa fa-twitter"></span></a>
+          </section>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- BreadCrumb -->
+        <div class="col pt-2">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Intranet</a></li>
+              <li class="breadcrumb-item"><a href="#">Nosotros</a></li>
+              <li class="breadcrumb-item" aria-current="page">
+                Agenda Telefónica
+              </li>
+            </ol>
+          </nav>
+          <!-- Interior Historia -->
+          <div class="p-20">
+            <h1 class="active">Agenda Telefónica</h1>
+            <div class="row p-15">
+              <input
+                type="text"
+                class="form-control rounded"
+                placeholder="María"
+              />
+            </div>
+            <div class="row">
+              <!-- imagen 1 -->
+              <a
+                href=""
+                class="comunication-link"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                <div class="col-lg-4 col-xs-12 d-flex mt-20">
+                  <div class="pr-20 d-flex flex-column">
+                    <img
+                      class="mb-15"
+                      src="img/agenda-telefonica.png"
+                      alt="..."
+                    />
+                    <button
+                      class="btn btn-primary button-agenda-telefonica"
+                      type="submit"
+                    >
+                      Ver Ficha
+                    </button>
+                  </div>
+                  <div>
+                    <p class="font-weight-bold">
+                      Sofía Valeria Valenzuela Sepulveda
+                    </p>
+                    <p>Ejecutiva Comercial</p>
+                    <a href="#" class="link-agenda">Sofía.valenzuela@mail.cl</a>
+                    <p>6543</p>
+                  </div>
+                </div>
+              </a>
+              <!-- modal 1-->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title active" id="exampleModalLabel">
+                        Sofía Valeria Valenzuela Sepulveda
+                      </h5>
+                      <button
+                        type="button"
+                        class="close x-cricle"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span class="x-position" aria-hidden="true"
+                          >&times;</span
+                        >
+                      </button>
+                    </div>
+                    <div class="row modal-body">
+                      <div class="col-4">
+                        <img
+                          class="mb-15"
+                          src="img/agenda-telefonica.png"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-8">
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Cargo</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Anexo</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Posición</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Celular Empresa</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Sucursal</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Empresa</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Area Personal</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- imagen 2 -->
+              <a
+                href=""
+                class="comunication-link"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                <div class="col-lg-4 col-xs-12 d-flex mt-20">
+                  <div class="pr-20 d-flex flex-column">
+                    <img
+                      class="mb-15"
+                      src="img/agenda-telefonica.png"
+                      alt="..."
+                    />
+                    <button
+                      class="btn btn-primary button-agenda-telefonica"
+                      type="submit"
+                    >
+                      Ver Ficha
+                    </button>
+                  </div>
+                  <div>
+                    <p class="font-weight-bold">
+                      Sofía Valeria Valenzuela Sepulveda
+                    </p>
+                    <p>Ejecutiva Comercial</p>
+                    <a href="#" class="link-agenda">Sofía.valenzuela@mail.cl</a>
+                    <p>6543</p>
+                  </div>
+                </div>
+              </a>
+              <!-- modal 2-->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title active" id="exampleModalLabel">
+                        Sofía Valeria Valenzuela Sepulveda
+                      </h5>
+                      <button
+                        type="button"
+                        class="close x-cricle"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span class="x-position" aria-hidden="true"
+                          >&times;</span
+                        >
+                      </button>
+                    </div>
+                    <div class="row modal-body">
+                      <div class="col-4">
+                        <img
+                          class="mb-15"
+                          src="img/agenda-telefonica.png"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-8">
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Cargo</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Anexo</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Posición</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Celular Empresa</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Sucursal</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Empresa</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Area Personal</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- imagen 3 -->
+              <a
+                href=""
+                class="comunication-link"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                <div class="col-lg-4 col-xs-12 d-flex mt-20">
+                  <div class="pr-20 d-flex flex-column">
+                    <img
+                      class="mb-15"
+                      src="img/agenda-telefonica.png"
+                      alt="..."
+                    />
+                    <button
+                      class="btn btn-primary button-agenda-telefonica"
+                      type="submit"
+                    >
+                      Ver Ficha
+                    </button>
+                  </div>
+                  <div>
+                    <p class="font-weight-bold">
+                      Sofía Valeria Valenzuela Sepulveda
+                    </p>
+                    <p>Ejecutiva Comercial</p>
+                    <a href="#" class="link-agenda">Sofía.valenzuela@mail.cl</a>
+                    <p>6543</p>
+                  </div>
+                </div>
+              </a>
+              <!-- modal 3-->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title active" id="exampleModalLabel">
+                        Sofía Valeria Valenzuela Sepulveda
+                      </h5>
+                      <button
+                        type="button"
+                        class="close x-cricle"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span class="x-position" aria-hidden="true"
+                          >&times;</span
+                        >
+                      </button>
+                    </div>
+                    <div class="row modal-body">
+                      <div class="col-4">
+                        <img
+                          class="mb-15"
+                          src="img/agenda-telefonica.png"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-8">
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Cargo</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Anexo</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Posición</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Celular Empresa</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Sucursal</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Empresa</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Area Personal</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-20">
+              <!-- imagen 1 -->
+              <a
+                href=""
+                class="comunication-link"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                <div class="col-lg-4 col-xs-12 d-flex mt-20">
+                  <div class="pr-20 d-flex flex-column">
+                    <img
+                      class="mb-15"
+                      src="img/agenda-telefonica.png"
+                      alt="..."
+                    />
+                    <button
+                      class="btn btn-primary button-agenda-telefonica"
+                      type="submit"
+                    >
+                      Ver Ficha
+                    </button>
+                  </div>
+                  <div>
+                    <p class="font-weight-bold">
+                      Sofía Valeria Valenzuela Sepulveda
+                    </p>
+                    <p>Ejecutiva Comercial</p>
+                    <a href="#" class="link-agenda">Sofía.valenzuela@mail.cl</a>
+                    <p>6543</p>
+                  </div>
+                </div>
+              </a>
+              <!-- modal 1-->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title active" id="exampleModalLabel">
+                        Sofía Valeria Valenzuela Sepulveda
+                      </h5>
+                      <button
+                        type="button"
+                        class="close x-cricle"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span class="x-position" aria-hidden="true"
+                          >&times;</span
+                        >
+                      </button>
+                    </div>
+                    <div class="row modal-body">
+                      <div class="col-4">
+                        <img
+                          class="mb-15"
+                          src="img/agenda-telefonica.png"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-8">
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Cargo</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Anexo</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Posición</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Celular Empresa</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Sucursal</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Empresa</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Area Personal</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- imagen 2 -->
+              <a
+                href=""
+                class="comunication-link"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                <div class="col-lg-4 col-xs-12 d-flex mt-20">
+                  <div class="pr-20 d-flex flex-column">
+                    <img
+                      class="mb-15"
+                      src="img/agenda-telefonica.png"
+                      alt="..."
+                    />
+                    <button
+                      class="btn btn-primary button-agenda-telefonica"
+                      type="submit"
+                    >
+                      Ver Ficha
+                    </button>
+                  </div>
+                  <div>
+                    <p class="font-weight-bold">
+                      Sofía Valeria Valenzuela Sepulveda
+                    </p>
+                    <p>Ejecutiva Comercial</p>
+                    <a href="#" class="link-agenda">Sofía.valenzuela@mail.cl</a>
+                    <p>6543</p>
+                  </div>
+                </div>
+              </a>
+              <!-- modal 2-->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title active" id="exampleModalLabel">
+                        Sofía Valeria Valenzuela Sepulveda
+                      </h5>
+                      <button
+                        type="button"
+                        class="close x-cricle"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span class="x-position" aria-hidden="true"
+                          >&times;</span
+                        >
+                      </button>
+                    </div>
+                    <div class="row modal-body">
+                      <div class="col-4">
+                        <img
+                          class="mb-15"
+                          src="img/agenda-telefonica.png"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-8">
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Cargo</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Anexo</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Posición</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Celular Empresa</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Sucursal</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Empresa</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Area Personal</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- imagen 3 -->
+              <a
+                href=""
+                class="comunication-link"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                <div class="col-lg-4 col-xs-12 d-flex mt-20">
+                  <div class="pr-20 d-flex flex-column">
+                    <img
+                      class="mb-15"
+                      src="img/agenda-telefonica.png"
+                      alt="..."
+                    />
+                    <button
+                      class="btn btn-primary button-agenda-telefonica"
+                      type="submit"
+                    >
+                      Ver Ficha
+                    </button>
+                  </div>
+                  <div>
+                    <p class="font-weight-bold">
+                      Sofía Valeria Valenzuela Sepulveda
+                    </p>
+                    <p>Ejecutiva Comercial</p>
+                    <a href="#" class="link-agenda">Sofía.valenzuela@mail.cl</a>
+                    <p>6543</p>
+                  </div>
+                </div>
+              </a>
+              <!-- modal 3-->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title active" id="exampleModalLabel">
+                        Sofía Valeria Valenzuela Sepulveda
+                      </h5>
+                      <button
+                        type="button"
+                        class="close x-cricle"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span class="x-position" aria-hidden="true"
+                          >&times;</span
+                        >
+                      </button>
+                    </div>
+                    <div class="row modal-body">
+                      <div class="col-4">
+                        <img
+                          class="mb-15"
+                          src="img/agenda-telefonica.png"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="col-8">
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Cargo</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Anexo</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Posición</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Celular Empresa</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Sucursal</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Empresa</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                        <div class="row">
+                          <p class="col-6 font-weight-bold">Area Personal</p>
+                          <p class="col-6">texto normal</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <nav aria-label="Page navigation example">
+              <ul class="pagination d-flex justify-content-center mt-20">
+                <li class="page-item">
+                  <a class="page-link" href=""
+                    ><i class="text-white fa fa-angle-left"></i
+                  ></a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link active" href="">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="">2</a></li>
+                <li class="page-item"><a class="page-link" href="">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href=""
+                    ><i class="text-white fa fa-angle-right"></i
+                  ></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer footer-background">
+      <div
+        class="flex-row-reverse container d-flex justify-content-between w-100 align-items-center align-content-center h-100"
+      >
+        <a href="index.html" class="navbar-brand d-flex float-right"
+          ><img src="img/LOGO_ICSK_BLANCO-01-mobile.png" alt=""
+        /></a>
+        <span class="text-white d-none d-sm-none d-md-block"
+          >Málaga 120, Las Condes - Santiago, Chile - (+562) 228374333</span
+        >
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

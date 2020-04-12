@@ -26,10 +26,10 @@
 
 <body class="body-white">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark d-xl-flex d-lg-flex d-md-flex justify-content-between">
-        <a href="#" class="navbar-brand d-none d-sm-none d-md-block "><img src="img/LOGO_ICSK_BLANCO-01.png"
+        <a href="index.html" class="navbar-brand d-none d-sm-none d-md-block "><img src="img/LOGO_ICSK_BLANCO-01.png"
                 alt="" /></a>
-        <a href="#" class="navbar-brand d-md-none d-block d-sm-block m-0"><img src="img/LOGO_ICSK_BLANCO-01-mobile.png"
-                alt="" /></a>
+        <a href="index.html" class="navbar-brand d-md-none d-block d-sm-block m-0"><img
+                src="img/LOGO_ICSK_BLANCO-01-mobile.png" alt="" /></a>
 
         <form class="form-inline">
             <input class="form-control mr-sm-2 d-none d-sm-none d-md-block search-navbar" type="search" />
@@ -86,13 +86,13 @@
                     <a class="nav-link font-weight-bold text-white" href="Noticias.html">INFÓRMATE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link font-weight-bold text-white" href="#">PERSONAS</a>
+                    <a class="nav-link font-weight-bold text-white" href="Beneficios.html">PERSONAS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link font-weight-bold text-white" href="#">NUESTRAS ÁREAS</a>
+                    <a class="nav-link font-weight-bold text-white" href="Nuestras-areas.html">NUESTRAS ÁREAS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link font-weight-bold text-white" href="#">DOCUMENTOS</a>
+                    <a class="nav-link font-weight-bold text-white" href="Documentos.html">DOCUMENTOS</a>
                 </li>
             </ul>
 
@@ -110,15 +110,22 @@
             <!-- SideBar -->
             <div class="col-2 collapse show d-md-flex bg-light pt-2 p-15 min-vh-100" id="sidebar">
                 <ul class="nav flex-column flex-nowrap overflow-hidden">
-                    <li class="nav-item active"><a class="nav-link text-truncate line-border-sidebar" href="Noticias.html">
-                            <i class="fa fa-fw fa-dashboard"></i><span class="d-none d-sm-inline">Noticias</span></a></li>
-                    <li class="nav-item"><a class="nav-link text-truncate line-border-sidebar" href="Noticias-galeria-de-fotos.html">
-                            <i class="fa fa-area-chart"></i><span class="d-none d-sm-inline">Galerías de Fotos</span></a>
+                    <li class="nav-item "><a class="nav-link text-truncate line-border-sidebar"
+                            href="Noticia-basica.html">
+                            <i class="fa fa-fw fa-dashboard"></i><span class="d-none d-sm-inline">Noticias</span></a>
                     </li>
-                    <li class="nav-item "><a class="nav-link text-truncate line-border-sidebar" href="Noticias-videos.html">
+                    <li class="nav-item "><a class="nav-link text-truncate line-border-sidebar"
+                            href="Noticia-galeria.html">
+                            <i class="fa fa-area-chart"></i><span class="d-none d-sm-inline">Galerías de
+                                Fotos</span></a>
+                    </li>
+                    <li class="nav-item active"><a class="nav-link text-truncate line-border-sidebar"
+                            href="Noticia-video.html">
                             <i class="fa fa-check-circle"></i><span class="d-none d-sm-inline">Videos</span></a></li>
-                    <li class="nav-item"><a class="nav-link text-truncate line-border-sidebar" href="Comunicados.html">
-                            <i class="fa fa-check-square"></i><span class="d-none d-sm-inline">Comunicados</span></a></li>
+                    <li class="nav-item"><a class="nav-link text-truncate line-border-sidebar"
+                            href="Comunicados.html.html">
+                            <i class="fa fa-check-square"></i><span class="d-none d-sm-inline">Comunicados</span></a>
+                    </li>
                 </ul>
             </div>
             <!-- BreadCrumb -->
@@ -129,203 +136,201 @@
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#">Intranet</a></li>
                             <li class="breadcrumb-item"><a href="#">Infórmate</a></li>
-                            <li class="breadcrumb-item"><a href="#">Noticia</a></li>
-                            <li class="breadcrumb-item" aria-current="page">Titutlo de la noticia</li>
+                            <li class="breadcrumb-item" aria-current="page">Galería de Video</li>
                         </ol>
                     </nav>
                     <!-- Interior Historia -->
-                    <div class="row col-12">
-                        <div class="col-md-12 col-sm-12 col-lg-8 pr-30">
-                            <div class="row">
-                                <span class="badge text-white font-weight-bold card-title-background">Categoría Noticia</span>
-                            </div>
-                            <!-- mobile -->
-                            <div class="d-lg-none">
-                                <div class="row d-flex align-items-center ">
-                                    <img class="img-flag mb-0" src="img/iconfinder_Chile_92021.png" alt="..." />
-                                    <h1 class="active mb-0">Título de la Noticia</h1>
-                                    <div class="ml-auto">
-                                        <p class="m-0">04/06/2019</p>
-                                        <span class="icon-red icon fa fa-commenting"></span> 32
-                                        <span class="icon-red icon fa fa-heart"></span> 32
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- desktop -->
-                            <div class="d-none d-lg-block">
-                                <div class="row d-flex bd-highlight align-items-center">
-                                    <div class="bd-highlight">
-                                        <img class="img-flag mb-15" src="img/iconfinder_Chile_92021.png" alt="..." />
-                                    </div>
-                                    <div class="bd-highlight">
-                                        <h1 class="active">Título de la Noticia</h1>
-                                    </div>
-                                    <div class="ml-auto bd-highlight">
-                                        <p class="m-0">04/06/2019</p>
-                                        <span class="icon-red icon fa fa-commenting"></span> 32
-                                        <span class="icon-red icon fa fa-heart"></span> 32
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <p class="font-weight-bold">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore iure nisi nam veritatis. Ullam ut nemo
-                                    labore.
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum voluptate quos animi, alias rem corrupti facere
-                                    laboriosam voluptatibus assumenda officia quaerat quasi beatae officiis, illo dolorem sunt, molestias
-                                    consectetur! Amet.
-                                </p>
-                            </div>
-
-                            <div class="row mb-20">
-                                <img src="img/video.png" alt="..." />
-                            </div>
-
-                            <div class="row rounded shadow enviar-borde d-flex flex-column mb-30">
-                                <div class="p-15">
-                                <p>Escribe un Comentario:</p>
-                                </div>
-                                <div class="enviar-fondo d-flex justify-content-end justify-content-between align-items-center">
-                                    <small class="ml-15">Enviar Comentarios</small>
-                                    <img class="mb-10 mt-10 mr-15" src="img/enviar.png" alt="..." />
-                                </div>
-                            </div>
-
-                            <div class="row d-flex mb-20">
-                                <div class="col-lg-2 ml-0 d-none d-lg-block">
-                                    <img src="img/cara.png" alt="..." />
-                                </div>
-                                <div class="col-lg-10 col-sm-12 col-md-12 justify-content-between speech-bubble">
-                                    <div class="row rounded shadow enviar-borde d-flex justify-content-end justify-content-between align-items-cente p-10">
-                                        <div>
-                                            <p class="font-weight-bold m-0">Camila Castillo</p>
-                                            <small>Consultora Comunicación</small>
-                                        </div>
-                                        <div>
-                                            <p class="m-0">Responder</p>
-                                            <span class="icon-red icon fa fa-commenting"></span> 32
-                                            <span class="icon-red icon fa fa-heart"></span> 32
-                                        </div>
-                                        <div class="w-100">
-                                            <p class="mb-0 mt-15">Genial! Excelente noticia, una nueva alianza para nuestro Banco.</p>
-                                        </div>
-                                        <div class=" mt-15 d-flex  justify-content-between align-items-center w-100">
-                                            <small class=" m-0 pr-20">Publicado hace 2:16 horas</small>
-                                            <small class="font-weight-bold">2 respuestas</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row d-flex mb-20">
-                                <div class="col-lg-4 ml-0 d-none d-lg-block pl-120">
-                                    <img src="img/cara.png" alt="..." />
-                                </div>
-                                <div class="col-lg-8 col-sm-12 col-md-12 justify-content-between speech-bubble">
-                                    <div
-                                        class="row rounded shadow enviar-borde d-flex justify-content-end justify-content-between align-items-cente p-10">
-                                        <div>
-                                            <p class="font-weight-bold m-0">Camila Castillo</p>
-                                            <small>Consultora Comunicación</small>
-                                        </div>
-                                        <div>
-                                            <p class="m-0">Responder</p>
-                                            <span class="icon-red icon fa fa-commenting"></span> 32
-                                            <span class="icon-red icon fa fa-heart"></span> 32
-                                        </div>
-                                        <div class="w-100">
-                                            <p class="mb-0 mt-15">Genial! Excelente noticia, una nueva alianza para nuestro Banco.</p>
-                                        </div>
-                                        <div class=" mt-15 d-flex  justify-content-between align-items-center w-100">
-                                            <small class=" m-0 pr-20">Publicado hace 2:16 horas</small>
-                                            <small class="font-weight-bold">2 respuestas</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="row d-flex mb-20">
-                                <div class="col-lg-2 ml-0 d-none d-lg-block">
-                                    <img src="img/cara.png" alt="..." />
-                                </div>
-                                <div class="col-lg-10 col-sm-12 col-md-12 justify-content-between speech-bubble">
-                                    <div
-                                        class="row rounded shadow enviar-borde d-flex justify-content-end justify-content-between align-items-cente p-10">
-                                        <div>
-                                            <p class="font-weight-bold m-0">Camila Castillo</p>
-                                            <small>Consultora Comunicación</small>
-                                        </div>
-                                        <div>
-                                            <p class="m-0">Responder</p>
-                                            <span class="icon-red icon fa fa-commenting"></span> 32
-                                            <span class="icon-red icon fa fa-heart"></span> 32
-                                        </div>
-                                        <div class="w-100">
-                                            <p class="mb-0 mt-15">Genial! Excelente noticia, una nueva alianza para nuestro Banco.</p>
-                                        </div>
-                                        <div class=" mt-15 d-flex  justify-content-between align-items-center w-100">
-                                            <small class=" m-0 pr-20">Publicado hace 2:16 horas</small>
-                                            <small class="font-weight-bold">2 respuestas</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="p-20 mb-20">
+                        <div class="row">
+                            <h1 class="active">Galerias de Video</h1>
                         </div>
-                        <!-- Side Right-->
-                        <div class="col-lg-4 rounded shadow d-none d-lg-block h-450">
-                            <div class="row fondo-azul rounded-top p-10 d-flex flex-row-reverse">
-                                <span class="text-white font-weight-bold">Te puede interesar</span>
+                        <div class="row mb-20">
+                            <input class="input-gray-noticias-grande mr-10" placeholder="Buscar video"></input>
+                            <input class="input-gray-noticias mr-10" placeholder="País"></input>
+                            <input class="input-gray-noticias mr-10" placeholder="Categoria"></input>
+                            <input class="input-gray-noticias mr-10" placeholder="Fecha desde"></input>
+                            <input class="input-gray-noticias mr-10" placeholder="Fecha hasta"></input>
+                            <span class="icon fa fa-search icon-search-navbar"></span>
+                        </div>
+
+                        <div class="row p-15 justify-content-center">
+
+                            <div class="col-12">
+
+                                <div class="row mb-15">
+                                    <div class="col-lg-4 col-xs-12">
+                                        <div class="card shadow bg-white rounded">
+                                            <div class="image-curva-father d-none d-lg-block">
+                                                <div class="image-curva"></div>
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg"
+                                                    class="card-img-top d-none d-lg-block card-title-one" alt="..." />
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="d-flex">
+                                                    <img class="img-flag" src="img/iconfinder_Chile_92021.png"
+                                                        alt="..." />
+                                                    <p class="card-text font-weight-bold">
+                                                        This is a longer card with supporting text below.
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="mt-20 d-flex justify-content-end justify-content-between align-items-center">
+                                                    <small class=" m-0 pr-20">04/06/2019</small>
+                                                    <div class="icon-red">
+                                                        <span class="icon fa fa-commenting"></span> 32
+                                                        <span class="icon fa fa-heart"></span> 32
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xs-12">
+                                        <div class="card shadow bg-white rounded">
+                                            <div class="image-curva-father d-none d-lg-block">
+                                                <div class="image-curva"></div>
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg"
+                                                    class="card-img-top d-none d-lg-block card-title-one" alt="..." />
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="d-flex">
+                                                    <img class="img-flag" src="img/iconfinder_Chile_92021.png"
+                                                        alt="..." />
+                                                    <p class="card-text font-weight-bold">
+                                                        This is a longer card with supporting text below.
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="mt-20 d-flex justify-content-end justify-content-between align-items-center">
+                                                    <small class=" m-0 pr-20">04/06/2019</small>
+                                                    <div class="icon-red">
+                                                        <span class="icon fa fa-commenting"></span> 32
+                                                        <span class="icon fa fa-heart"></span> 32
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xs-12">
+                                        <div class="card shadow bg-white rounded">
+                                            <div class="image-curva-father d-none d-lg-block">
+                                                <div class="image-curva"></div>
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg"
+                                                    class="card-img-top d-none d-lg-block card-title-one" alt="..." />
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="d-flex">
+                                                    <img class="img-flag" src="img/iconfinder_Chile_92021.png"
+                                                        alt="..." />
+                                                    <p class="card-text font-weight-bold">
+                                                        This is a longer card with supporting text below.
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="mt-20 d-flex justify-content-end justify-content-between align-items-center">
+                                                    <small class=" m-0 pr-20">04/06/2019</small>
+                                                    <div class="icon-red">
+                                                        <span class="icon fa fa-commenting"></span> 32
+                                                        <span class="icon fa fa-heart"></span> 32
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-15">
+                                    <div class="col-lg-4 col-xs-12">
+                                        <div class="card shadow bg-white rounded">
+                                            <div class="image-curva-father d-none d-lg-block">
+                                                <div class="image-curva"></div>
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg"
+                                                    class="card-img-top d-none d-lg-block card-title-one" alt="..." />
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="d-flex">
+                                                    <img class="img-flag" src="img/iconfinder_Chile_92021.png"
+                                                        alt="..." />
+                                                    <p class="card-text font-weight-bold">
+                                                        This is a longer card with supporting text below.
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="mt-20 d-flex justify-content-end justify-content-between align-items-center">
+                                                    <small class=" m-0 pr-20">04/06/2019</small>
+                                                    <div class="icon-red">
+                                                        <span class="icon fa fa-commenting"></span> 32
+                                                        <span class="icon fa fa-heart"></span> 32
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xs-12">
+                                        <div class="card shadow bg-white rounded">
+                                            <div class="image-curva-father d-none d-lg-block">
+                                                <div class="image-curva"></div>
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg"
+                                                    class="card-img-top d-none d-lg-block card-title-one" alt="..." />
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="d-flex">
+                                                    <img class="img-flag" src="img/iconfinder_Chile_92021.png"
+                                                        alt="..." />
+                                                    <p class="card-text font-weight-bold">
+                                                        This is a longer card with supporting text below.
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="mt-20 d-flex justify-content-end justify-content-between align-items-center">
+                                                    <small class=" m-0 pr-20">04/06/2019</small>
+                                                    <div class="icon-red">
+                                                        <span class="icon fa fa-commenting"></span> 32
+                                                        <span class="icon fa fa-heart"></span> 32
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-xs-12">
+                                        <div class="card shadow bg-white rounded">
+                                            <div class="image-curva-father">
+                                                <div class="image-curva"></div>
+                                                <img src="https://dummyimage.com/600x400/000/fff.jpg"
+                                                    class="card-img-top d-none d-lg-block card-title-one" alt="..." />
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="d-flex">
+                                                    <img class="img-flag" src="img/iconfinder_Chile_92021.png"
+                                                        alt="..." />
+                                                    <p class="card-text font-weight-bold">
+                                                        This is a longer card with supporting text below.
+                                                    </p>
+                                                </div>
+                                                <div
+                                                    class="mt-20 d-flex justify-content-end justify-content-between align-items-center">
+                                                    <small class=" m-0 pr-20">04/06/2019</small>
+                                                    <div class="icon-red">
+                                                        <span class="icon fa fa-commenting"></span> 32
+                                                        <span class="icon fa fa-heart"></span> 32
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
                             </div>
-                            <div class="row p-10">
-                                <img class="image-world" src="img/mundo-icono.png" alt="..." />
-                            </div>
-                            <div class="row d-flex p-10 ">
-                                <div>
-                                    <img class="rounded-top mr-10" src="https://dummyimage.com/92x65/000/fff.jpg" alt="..." />
-                                </div>
-                                <div class="description-sideright">
-                                    <img class="img-flag m-0" src="img/iconfinder_Chile_92021.png" alt="..." />
-                                    <small>04/06/2019</small>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
-                                </div>
-                            </div>
-                            <hr class="m-0">
-                            <div class="row d-flex p-10 ">
-                                <div>
-                                    <img class="rounded-top mr-10" src="https://dummyimage.com/92x65/000/fff.jpg" alt="..." />
-                                </div>
-                                <div class="description-sideright">
-                                    <img class="img-flag m-0" src="img/iconfinder_Chile_92021.png" alt="..." />
-                                    <small>04/06/2019</small>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
-                                </div>
-                            </div>
-                            <hr class="m-0">
-                            <div class="row d-flex p-10 ">
-                                <div>
-                                    <img class="rounded-top mr-10" src="https://dummyimage.com/92x65/000/fff.jpg" alt="..." />
-                                </div>
-                                <div class="description-sideright">
-                                    <img class="img-flag m-0" src="img/iconfinder_Chile_92021.png" alt="..." />
-                                    <small>04/06/2019</small>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
-                                </div>
-                            </div>
-                            <hr class="m-0">
-                            <div class="row d-flex p-10 ">
-                                <div>
-                                    <img class="rounded-top mr-10" src="https://dummyimage.com/92x65/000/fff.jpg" alt="..." />
-                                </div>
-                                <div class="description-sideright">
-                                    <img class="img-flag m-0" src="img/iconfinder_Chile_92021.png" alt="..." />
-                                    <small>04/06/2019</small>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
-                                </div>
-                            </div>
-                            
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination ">
+                                    <li class="page-item"><a class="page-link" href=""><i
+                                                class="text-white fa fa-angle-left"></i></a></li>
+                                    <li class="page-item"><a class="page-link active" href="">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="">3</a></li>
+                                    <li class="page-item"><a class="page-link" href=""><i
+                                                class="text-white fa fa-angle-right"></i></a></li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
             </div>
@@ -336,7 +341,7 @@
     <footer class="footer footer-background">
         <div
             class="flex-row-reverse container d-flex justify-content-between w-100 align-items-center align-content-center h-100">
-            <a href="#" class="navbar-brand d-flex float-right "><img src="img/LOGO_ICSK_BLANCO-01-mobile.png"
+            <a href="index.html" class="navbar-brand d-flex float-right "><img src="img/LOGO_ICSK_BLANCO-01-mobile.png"
                     alt="" /></a>
             <span class="text-white d-none d-sm-none d-md-block">Málaga 120, Las Condes - Santiago, Chile - (+562)
                 228374333</span>

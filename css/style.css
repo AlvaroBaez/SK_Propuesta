@@ -602,3 +602,22 @@ li.active i {
   border-radius: 8px;
   color: #383B3F;
 }
+
+.image-circle-beneficio {
+  position: absolute;
+  bottom: -17px;
+  right: 10px;
+  z-index: 20;
+}
+
+.btn-primary.button-agenda-telefonica {
+  background-color: #D52B1E;
+  border-radius: 35px;
+  font-size: 13px;
+  font-weight: normal;
+  width: 100px;
+}
+
+.link-agenda {
+  color: #D52B1E;
+}
