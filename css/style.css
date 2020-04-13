@@ -225,7 +225,7 @@ input::placeholder {
 }
 
 .input-gray {
-  width: 204px;
+  width: 160px;
   background-color: #b4b3b8;
   border-radius: 9px;
   border: 0px;
@@ -620,4 +620,13 @@ li.active i {
 
 .link-agenda {
   color: #D52B1E;
+}
+
+.circle-adm {
+  color: #D52B1E;
+  margin-right: 15px;
+}
+
+.box-adm {
+  padding-right: 50px;
 }
