@@ -110,7 +110,7 @@ input::placeholder {
 .buscar-persona-div {
   background-color: #707070;
   margin-top: 3px;
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 
 .buscar-persona-p {
@@ -629,4 +629,8 @@ li.active i {
 
 .box-adm {
   padding-right: 50px;
+}
+
+.margin-menos {
+  margin-left: -28px;
 }
